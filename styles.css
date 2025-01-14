@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+
+}
+
+h1{
+    color: floralwhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    color: floralwhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container {
+    display: flex;
+    justify-content: space-between; /* Optional: adds space between columns */
+    align-items: flex-start; 
+}
+.graph{
+    display: flex;
+    max-width: 30%;
+    padding: 20px; /* Optional: adds padding around each column */
+    margin: 10px; /* Optional: adds space between columns */
+    flex-direction: column;
+    max-height: 600px; 
+    padding: 20px; /* Optional: adds padding around each column */
+    margin: 10px; /* Optional: adds space between columns */
+    overflow-y: auto; /* Enables vertical scrolling when content overflows */
+    border: 1px solid
+}
+
+.photos{
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+    max-height: 600px; 
+    padding: 20px; /* Optional: adds padding around each column */
+    margin: 10px; /* Optional: adds space between columns */
+    overflow-y: auto; /* Enables vertical scrolling when content overflows */
+    border: 1px solid
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    max-width: 10%;
+    padding: 20px; /* Optional: adds padding around each column */
+    margin: 10px; /* Optional: adds space between columns */
+}
